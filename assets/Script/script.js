@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     botoes.forEach(botao => {
         botao.addEventListener('click', function (e) {
             e.preventDefault();
-            const id = this.getAttribute('href').substring(1); // remove o "#"
+            const id = this.getAttribute('href').substring(1);
             mostrarSecao(id);
         });
     });

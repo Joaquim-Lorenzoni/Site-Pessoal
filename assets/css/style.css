@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    text-align: justify;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section h2 {
+    border-bottom: 2px solid rgb(24, 118, 242);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.inicio-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 110px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: white;
+}
+
+.inicio-texto {
+    flex: 1;
+    margin-left: 150px;
+}
+
+.img-perfil img {
+    height: 500px;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-right: 150px;
+    width: 329px;
+
+
+}
+
+.img-contatos img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+
+}
+
+img {
+    width: 250px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.interior-blocos-contatos {
+    display: flex;
+    align-items: space-between;
+    width: 60px;
+    height: 60px;
+}
+
+#habilidades img {
+    width: 110px;
+    height: 100px;
+    border: none;
+}
+
+#habilidades img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.header {
+
+    max-width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.containerbtn {
+    margin-inline: auto;
+    max-width: 1500px;
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 800px;
+}
+
+
+.container-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.container-contatos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.container-academica {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+
+.bloco-projetos{
+    background-color: #1f1f1f;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.bloco-projetos:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.bloco-contatos{
+    background-color: #1f1f1f;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.bloco-contatos:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.bloco-academica{
+    background-color: #1f1f1f;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-acdemica:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.habilidades-container {
+    text-align: center;
+    width: 120px;
+    margin-top: 30px;
+}
+
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+
+nav {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: rgb(36, 36, 36);
+    position: relative;
+    z-index: 1;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 220px;
+    margin-inline: auto;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(24, 118, 242);
+    width: 280px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.secao {
+    display: none;
+  }
+  
+  .secao.ativa {
+    display: block;
+  }
+  

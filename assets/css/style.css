@@ -11,9 +11,8 @@ body {
 
 h1 {
     color: #ffffff;
-    text-align: center;
     font-size: 50px;
-    text-align: justify;
+    text-align: left;
 }
 
 .titulo {
@@ -230,7 +229,7 @@ nav {
 
 .btn:hover {
     background-color: rgb(24, 118, 242);
-    width: 280px;
+    transform: scale(1.05);
 }
 
 footer {
